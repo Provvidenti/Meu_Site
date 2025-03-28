@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Dune_Rise';
+    src: url('../fontes/Dune_Rise.ttf');
+}
+
+@font-face {
+    font-family: 'minedings';
+    src: url('../fontes/minedings.ttf');
+}
+
+@font-face {
+    font-family: 'FcoFlares';
+    src: url('../fontes/FcoFlares.TTF');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dune_Rise';
+    background-image: url('../fundo/img.png');
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+header,
+nav,
+footer,
+main {
+    float: left;
+}
+
+header {
+    width: 98%;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 1%;
+    height: 500px;
+    size: 300px;
+    margin-top: 0%;
+}
+
+nav.superior,
+nav.topo {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+header {
+    height: 200px;
+    width: 94%;
+    background-color: #F5DECF;
+}
+
+nav.superior {
+    font-family: 'FcoFLares';
+}
+
+nav.lateral {
+    font-family: 'dune_rise';
+    width: 29%;
+    background-color: #f1f1f1;
+}
+
+main {
+    background-color:  #F5DECF;
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: justify;
+    float: right;
+}
+
+main p,
+main h3 {
+    text-indent: 2%;
+}
+
+main p {
+    font-family: 'minedings';
+}
+
+main h3 {
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+footer {
+    margin-top: 1%;
+    background-color: #000000;
+    width: 100%;
+    height: 400px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav.lateral ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav.lateral li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav.lateral li a:hover {
+    background-color: #F57F25;
+    color: #000000;
+    text-indent: 10px;
+}
+
+nav.lateral .active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+nav.topo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+nav.topo li {
+    display: inline-block;
+}
+
+nav.topo li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.topo li a:hover {
+    background-color: #F57F25;
+}
+
+nav.topo .active {
+    background-color: rgb(255, 255, 255);
+}
+
+nav.superior ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+nav.superior li {
+    float: left;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+nav.superior li:last-child {
+    border-right: none;
+}
+
+
+nav.superior li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.superior li a:hover {
+    background-color: #F57F25;
+}
+
+nav.superior .active {
+    background-color: rgb(0, 0, 0);
+}
